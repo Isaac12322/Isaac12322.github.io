@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #16181a; /* Color de fondo del menú */
+    overflow: hidden;
+    position: fixed; /* Fijar el menú en la parte superior */
+    top: 0; /* Posicionar en la parte superior */
+    width: 100%; /* Ancho completo */
+}
+
+.menu li {
+    float: right;
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #0b321b;
+}
+h1,p{
+    margin-top: 60px;
+    color: white;
+}

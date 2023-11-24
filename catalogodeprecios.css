@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #16181a;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+}
+
+.menu li {
+    float: right;
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #0b321b;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 60px; /* Ajustar la posición del contenido para evitar solapamiento con el menú */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #000000;
+}
+table p {
+    color: white;
+}
+table h1{
+    color: white;
+}

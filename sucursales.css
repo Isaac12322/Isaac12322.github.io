@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #16181a;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+}
+
+.menu li {
+    float: right;
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #0b321b;
+}
+h2, h3, p {
+    float: center;
+    color: white;
+}
